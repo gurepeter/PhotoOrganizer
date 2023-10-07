@@ -1,6 +1,6 @@
 # PhotoOrganizer
 Verwaltung von Photos
 
-## Image anaylsieren
+## Image analysieren
 
 ## Images verschieben oder kopieren
