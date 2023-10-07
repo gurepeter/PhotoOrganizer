@@ -65,5 +65,5 @@ class ImageCompare(object):
         
 if __name__ == '__main__':
     a = ImageCompare()
-    a.get_all_duplicated_images("C:\\Users\\santnerp\\Bilder\Magna")
+    a.get_all_duplicated_images("C:\\Users\\santnerp\\OneDrive - Magna\\Documents\\Privat\\Sicherung\\handy_20231003")
 
