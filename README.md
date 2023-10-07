@@ -1,7 +1,8 @@
 # PhotoOrganizer
 Verwaltung von Photos
 
-## Duplikate 
+## Duplikate
+Implementiert unter src/ImageCompare.py
 ```python
   if __name__ == '__main__':
       a = ImageCompare()
