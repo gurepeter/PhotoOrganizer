@@ -1,8 +1,12 @@
 # PhotoOrganizer
 Verwaltung von Photos
 
-## Duplikate
-Implementiert unter src/ImageCompare.py
+## Duplikate finden
+***get_all_duplicated_images()*** iteriert rekursiv durch alle Verzeichnisse und schreibt die Bilder in eine Datei (***duplicated_files.csv***), 
+falls diese öfter als 1x vorkommen.
+
+Implementiert mit dem Pythonscript [ImageCompare.py](src/ImageCompare.py)
+
 ```python
   if __name__ == '__main__':
       a = ImageCompare()
