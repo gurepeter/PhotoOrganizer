@@ -19,3 +19,9 @@ Duplikate findet man dann in einer CSV-Datei:
 
 
 ## Images verschieben oder kopieren
+
+```python
+  if __name__ == '__main__':
+    movelist = a.move_image_files("C:\\Users\\santnerp\\OneDrive - Magna\\Documents\\Privat\\Sicherung\\handy_20231003", "C:\\Users\\santnerp\\Bilder\\tmp", False)
+    a.write_csv("movefiles_upload.csv", movelist)
+```
