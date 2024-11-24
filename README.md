@@ -20,8 +20,15 @@ Duplikate findet man dann in einer CSV-Datei:
 
 ## Images verschieben oder kopieren
 
+Bilder werden in ein Verzeichnis mit folgenden Format verschoben:
+```
+<dir>\JJJJ\JJJJ-MM\
+```
+
 ```python
-  if __name__ == '__main__':
-    movelist = a.move_image_files("C:\\Users\\santnerp\\OneDrive - Magna\\Documents\\Privat\\Sicherung\\handy_20231003", "C:\\Users\\santnerp\\Bilder\\tmp", False)
+if __name__ == '__main__':
+    print("starting ...")
+    a = ImageMove()
+    movelist = a.move_image_files('C:\\Users\\santnerp\\Bilder_local\\Canon\\101CANON', 'C:\\Users\\santnerp\\Bilder_local', False)
     a.write_csv("movefiles_upload.csv", movelist)
 ```

@@ -126,18 +126,11 @@ class ImageMove(object):
 if __name__ == '__main__':
     print("starting ...")
     a = ImageMove()
-    #a.move_image_files("P:\\2020\\2020-05", "C:\\Users\\santnerp\\Documents\\tmp")
-    #a.image_info("P:\\2020\\2020-05\\20200515_143229.jpg")
-#    a.move_image_files("P:\\Upload Peter", "P:")
-#    movelist = a.move_image_files("P:\\Upload Peter\\upload", "C:\\Users\\santnerp\\Documents\\tmp")
-#    movelist = a.move_image_files("C:\\Users\\santnerp\\Pictures\\2021_unsorted", "C:\\Users\\santnerp\\Pictures", False)
-#    movelist = a.move_image_files("P:\\Upload Peter\\upload", "C:\\Users\\santnerp\\Pictures\\upload", False)
-    #movelist = a.move_image_files("P:\\2016\\2016-08-Kalifornien", "C:\\Users\\santnerp\\Pictures\\Kalifornien", False)
-    #movelist = a.move_image_files("C:\\Users\\santnerp\\Pictures\\2022\\Kalender_Hanni", "C:\\Users\\santnerp\\Pictures\\2022\\Kalender_Hanni", True)
-    movelist = a.move_image_files("C:\\Users\\santnerp\\OneDrive - Magna\\Documents\\Privat\\Sicherung\\handy_20231003", "C:\\Users\\santnerp\\Bilder\\tmp", False)
+    movelist = a.move_image_files('C:\\Users\\santnerp\\Bilder_local\\Canon\\101CANON', 'C:\\Users\\santnerp\\Bilder_local', False)
     a.write_csv("movefiles_upload.csv", movelist)
     
     #myvideos = a.get_all_video_file("P:")
     #a.write_csv("videofiles.csv", myvideos)
+
     print("end")
        
